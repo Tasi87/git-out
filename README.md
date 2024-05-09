@@ -21,7 +21,7 @@ Tu su prikazy, ktore som sa ucil v kurze.
 
 Pre Windows odporúčam [cmder](https://cmder.net).
 
-Na Macu spusti prvý príkaz cez Terminál a mal by sa nainštalovať Git.
+Na Macu spusti prvý príkaz cez Terminál a mal by sa nainštalovať Git.  
 Ak nie, spusti druhý príkaz.
 ```
 git --version
