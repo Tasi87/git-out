@@ -13,14 +13,31 @@ Je toho vela, ale verim, ze to **zvladnem**.
 
 Tu su prikazy, ktore som sa ucil v kurze.
 ---
+
 ###IŠTALÁCIA
+
 
 Pre Windows odporúčam [cmder](https://cmder.net).
 
 Na Macu spusti prvý príkaz cez Terminál a mal by sa nainštalovať Git.
 Ak nie, spusti druhý príkaz.
-
+```
 git --version
 xcode-select --install
+```
 Ak sa nedarí, nainštaluj [odtiaľto](https://git-scm.com/download/).
 
+###GIT NASTAVENIA
+
+Otestuj, či ho máš nainštalovaný.
+
+```
+git --version
+```
+
+Nastav **meno** a __heslo__ (ak požívaš Github, _použi_ *github údaje*).
+
+```
+git config --global user.name "tvojemeno"
+git config -- global user.email "tvojemail.hu"
+```
