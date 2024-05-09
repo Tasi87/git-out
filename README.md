@@ -212,3 +212,37 @@ git whatchanged origin/main -n 1
 [Pozri si kurz kliknutím sem](https://youtu.be/0v5K4GvK4Gs?si=NjWycEiwpXBneCRI)
 
 ---
+
+###GIT BRANCH/MERGE (rozvetvi sa)
+
+Ak robíš __bugfix__, sprav si __bugfix vetvu__. Ak robíš novú __login__ fičuru, sprav si __login vetvu__.
+
+```
+git branch login
+```
+
+Prepni sa do novej vetvy. Commity o logine rob do nej.
+
+```
+git checkout login
+```
+
+Vytvor a _okamžite sa prepni_ do novej bugfix vetvy. Commity o bugfixe rob do nej.
+
+```
+git checkout -b bugfix
+```
+
+Keď máš login fičuru hotovú, prepni sa do hlavnej vetvy.
+
+```
+git checkout main
+```
+
+A zlúč zmeny z loginu do nej.
+
+```
+git merge login
+```
+
+Ak chceš nevedieť, kde Ti hlava stojí, prečítaj si o [merge vs rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
