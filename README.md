@@ -203,4 +203,12 @@ git whatchanged origin/main -n 1
 
 ###GIT KONFLIKT
 
-[pozri si kurz](https://youtu.be/AwZw7_1Elmg?si=jl3j1TRZiYGedLED)
+[Pozri si kurz kliknutím sem](https://youtu.be/AwZw7_1Elmg?si=jl3j1TRZiYGedLED)
+
+---
+
+###GIT VO VISUAL STUDIO CODE
+
+[Pozri si kurz kliknutím sem](https://youtu.be/0v5K4GvK4Gs?si=NjWycEiwpXBneCRI)
+
+---
