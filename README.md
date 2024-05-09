@@ -41,3 +41,37 @@ Nastav **meno** a __heslo__ (ak požívaš Github, _použi_ *github údaje*).
 git config --global user.name "tvojemeno"
 git config -- global user.email "tvojemail.hu"
 ```
+
+###GIT ZÁKLADY
+
+Aktivuj git pre projekt.
+
+```
+git init
+```
+
+Over stav / pozri, čo sa zmenilo.
+
+```
+git status
+```
+
+Ak spravíš zmenu v súbore, **a chceš ho v novej verzii projektu**, označ ho.
+
+```
+git add index.html
+```
+
+Vytesaj zmenu do kameňa. **Vždy pridaj skutočný popis zmeny**.
+
+```
+git commit -m "pridal som index.html"
+```
+
+Pozri si vývoj projektu.
+
+```
+git log
+```
+
+Opakuj naveky;)
