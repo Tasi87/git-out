@@ -161,3 +161,42 @@ git checkout main
 A šípky __hore/dole__ a __q__, ak git log je pridlhý.
 
 ---
+
+###REMOTE SERVER (GitHub v mojom prípade) GIT PUSH/PULL
+
+Naklonuj projekt do adresára __hemingway__.
+
+```git clone https://github.com/yablko/hemingwayovatoro-rotator.git hemingway
+```
+
+Vytvor odkaz na externý server (resp. konkrétny repozitár)
+
+```
+git remote add origin https://github.com/ty/odkaz-na-tvoj-projekt.git
+```
+
+Natlač zmeny z tvojho počítača na server. (Zadaj github meno/heslo).
+
+```
+git push origin main
+```
+
+Naťahaj zmeny zo servera do svojho počítača.
+
+```
+git pull origin main
+```
+
+Čekni, či na serveri nenastali zmeny.
+```
+git remote update
+git status
+```
+
+Plus mínus aké zmeny boli?
+
+```
+git whatchanged origin/main -n 1
+```
+
+---
