@@ -75,3 +75,63 @@ git log
 ```
 
 Opakuj naveky;)
+
+###KÚSOK GITU NAVYŠE
+
+Označ všetky **.png** súbory z adresára **images**
+
+```
+git add images/*.png
+```
+
+Oztnač všetky z tohot adresára (okrem vymazaných súborov).
+
+```
+git add .
+```
+
+Označ všetky z tohot adresára (vrátane vymazaných súborov).
+
+```
+git add -A
+```
+
+Ak chceš zrušiť označenie súborov.
+
+```
+git restore --staged .
+```
+
+Commitni všetky __zmenené__ (nie nové) súbory.
+Hneď pridaj komentár.
+
+```
+git commit -a
+git commit -am "upravil som kód a teraz je dobrý"
+```
+
+Vypimpuj log. Daj ho na jeden riadok.
+
+```
+git log --graph --decorate --abbrev-commit --all
+git log --graph --decorate --abbrev-commit --pretty=oneline
+```
+
+Ak uložíš __index.html__, ale pokašľal si to a chceš sa vrátiť na verziu z gitu.
+
+```
+git checkout -- index.html
+```
+
+Cez git log nájdeš hash commitu. Skopči prvých pár znakov (napr. c10e47f) a tkato môžeš skočiť na staršiu verziu projektu.
+
+```
+git checkou c10e47f
+```
+
+Vráť sa na aktuálnu verziu.
+
+```
+git checkout main
+```
+
