@@ -12,10 +12,12 @@ Je toho vela, ale verim, ze to **zvladnem**.
 * v zozname
 
 Tu su prikazy, ktore som sa ucil v kurze.
+
 ---
 
 ###IŠTALÁCIA
 
+---
 
 Pre Windows odporúčam [cmder](https://cmder.net).
 
@@ -27,7 +29,11 @@ xcode-select --install
 ```
 Ak sa nedarí, nainštaluj [odtiaľto](https://git-scm.com/download/).
 
+---
+
 ###GIT NASTAVENIA
+
+---
 
 Otestuj, či ho máš nainštalovaný.
 
@@ -42,7 +48,11 @@ git config --global user.name "tvojemeno"
 git config -- global user.email "tvojemail.hu"
 ```
 
+---
+
 ###GIT ZÁKLADY
+
+---
 
 Aktivuj git pre projekt.
 
@@ -135,3 +145,19 @@ Vráť sa na aktuálnu verziu.
 git checkout main
 ```
 
+---
+
+###AKO VYPNÚŤ VIM;)
+
+```
+- stlač "i"
+- napíš text
+- esc
+- :wq
+- enter
+- ;)
+```
+
+A šípky __hore/dole__ a __q__, ak git log je pridlhý.
+
+---
