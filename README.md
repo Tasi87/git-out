@@ -200,3 +200,7 @@ git whatchanged origin/main -n 1
 ```
 
 ---
+
+###GIT KONFLIKT
+
+[pozri si kurz](https://youtu.be/AwZw7_1Elmg?si=jl3j1TRZiYGedLED)
